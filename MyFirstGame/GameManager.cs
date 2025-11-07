@@ -65,8 +65,8 @@ namespace MyFirstGame
 
 
             // Create player
-            // Vector2 startPos = new Vector2(graphicsDevice.Viewport.Width / 2, graphicsDevice.Viewport.Height - 100);
-            Vector2 startPos = new Vector2(0,0);
+            Vector2 startPos = new Vector2(graphicsDevice.Viewport.Width / 2, graphicsDevice.Viewport.Height - 100);
+            // Vector2 startPos = new Vector2(0,0);
 
             // Use the 4-parameter constructor we fixed
             // player = new Player("Captain Affwaz", playerTexture, projectileTexture, startPos);
