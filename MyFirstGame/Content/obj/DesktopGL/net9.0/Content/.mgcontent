@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/zafirah/Downloads/monogame/MyFirstGame/Content/UIFont.spritefont</File>
+    <File>D:/Afiq/ProjectOOP Clone/ProjectOOP/MyFirstGame/Content/UIFont.spritefont</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />
