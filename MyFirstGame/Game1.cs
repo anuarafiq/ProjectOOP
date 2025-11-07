@@ -19,6 +19,11 @@ namespace MyFirstGame
             // This line fixes your "No Graphics Device Service" error
             _graphics = new GraphicsDeviceManager(this);
             
+            // Set mobile phone screen size
+            _graphics.PreferredBackBufferWidth = 360;   // Width in pixels
+            _graphics.PreferredBackBufferHeight = 640;  // Height in pixels
+            _graphics.ApplyChanges();
+            
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
             

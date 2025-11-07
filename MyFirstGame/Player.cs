@@ -37,14 +37,14 @@ namespace MyFirstGame
 
             this.projectileTexture = projectileTexture;
             this.projectileSpeed = 10.0f;
-            this.Size = new Vector2(32, 32); // A 32x32 pixel square
+            this.Size = new Vector2(128, 128); // A 32x32 pixel square
         }
 
         public Rectangle BoundingBox
         {
             get
             {
-                return new Rectangle((int)Position.X, (int)Position.Y, Texture.Width, Texture.Height);
+                return new Rectangle((int)Position.X, (int)Position.Y, (int)Size.X, (int)Size.Y);
             }
         }
 
@@ -80,8 +80,8 @@ namespace MyFirstGame
             Rectangle destinationRectangle = new Rectangle((int)Position.X, (int)Position.Y, (int)Size.X, (int)Size.Y);
             spriteBatch.Draw(
                 this.Texture,
-                this.Position,
-                // destinationRectangle,
+                // this.Position,
+                destinationRectangle,
                 Color.White
             );
         }
