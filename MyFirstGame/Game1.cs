@@ -6,7 +6,6 @@ namespace MyFirstGame
 {
     public class Game1 : Game
     {
-        // This is required for MonoGame to access the graphics card
         private GraphicsDeviceManager _graphics; 
         
         private SpriteBatch _spriteBatch;
