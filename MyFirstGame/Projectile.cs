@@ -6,7 +6,6 @@ namespace MyFirstGame
 {
     public class Projectile
     {
-        // MonoGame visual properties
         public Texture2D Texture { get; private set; }
         public Vector2 Position { get; private set; }
         public Vector2 Size { get; private set; }
