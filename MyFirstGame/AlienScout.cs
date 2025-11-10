@@ -5,7 +5,6 @@ namespace MyFirstGame
 {
     public class AlienScout : Enemy
     {
-        /// Constructor for the Alien Scout.
         public AlienScout(Texture2D texture, Vector2 startPosition): base("Alien Scout", 50, 2.0f, texture, startPosition)
         {
             // "Alien Scout", 50 HP, 2.0f speed
