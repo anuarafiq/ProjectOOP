@@ -10,7 +10,6 @@ namespace MyFirstGame
         
         private SpriteBatch _spriteBatch;
 
-        // This is the *instance* of your logic class
         private GameManager gameManager;
 
         public Game1()
