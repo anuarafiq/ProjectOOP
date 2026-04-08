@@ -63,4 +63,4 @@ ProjectOOP/
 ## Contributors
 
 - **Anuar Afiq**
-- **Fira**
+- **Siti Zafirah**
