@@ -31,7 +31,7 @@ Pilot your ship through waves of alien enemies, collect power-ups, manage your a
 ## Prerequisites
 
 - [.NET 9.0 SDK](https://dotnet.microsoft.com/download/dotnet/9.0)
-- [MonoGame](https://monogame.net/downloads/) (for content pipeline tools)
+- [MonoGame](https://sourceforge.net/projects/monogame.mirror/) (for content pipeline tools)
 
 ## Build & Run
 
